@@ -55,6 +55,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k                                                                                             
 nnoremap <C-l> <C-w>l   
 
+nnoremap <C-s> <C-u> "remap Ctrl U to Ctr S in normal mode, thus closer to Ctrl D
+
 "Sub Config Files
 "other files used for vim config but stored in separate directories and files
 "for organizational purposes
