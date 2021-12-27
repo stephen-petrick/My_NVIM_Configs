@@ -54,3 +54,9 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j                                                                                             
 nnoremap <C-k> <C-w>k                                                                                             
 nnoremap <C-l> <C-w>l   
+
+"Sub Config Files
+"other files used for vim config but stored in separate directories and files
+"for organizational purposes
+
+source $HOME/.config/nvim/plug-config/coc.vim
