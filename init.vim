@@ -10,8 +10,9 @@ Plug 'sainnhe/edge'
 Plug 'jiangmiao/auto-pairs' "Automatically adds [,{, etc and lets you navigate them like in an IDE
 Plug 'airblade/vim-gitgutter' "Shows you lines that will be changed in commit and navigate them
 Plug 'tpope/vim-fugitive' "Git plugin that lets you do more Git commands easily in NVim
-Plug 'ms-jpq/coq_nvim' "Auto-completion, preview man pages, and lots of other things
-Plug 'dense-analysis/ale' "Linting (checks for errors) w/o having to save first
+"Plug 'ms-jpq/coq_nvim' "Auto-completion, preview man pages, and lots of other things. Need to research this one more, got confused with COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'} "Main COC plugin
+"Plug 'dense-analysis/ale' "Linting (checks for errors) w/o having to save first
 Plug 'ms-jpq/chadtree' "File Manager
 
 call plug#end()
