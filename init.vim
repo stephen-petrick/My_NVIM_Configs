@@ -36,6 +36,7 @@ call plug#end()
 set number "sets line numbers on the side of the screen
 syntax on "can set color scheme also with 'colorscheme'
 colorscheme edge
+set background=dark "hopefully makes colorschemes better
 "best to have tabstop, shiftwidth, and softtabstop all set to same value for consistency. otherwise, may not act as intended
 set tabstop=3 "sets tabs to be 3 spaces
 set shiftwidth=3 "number of spaces used for when indenting in normal mode with < or >
