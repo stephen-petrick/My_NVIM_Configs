@@ -46,7 +46,8 @@ set autoindent "auto indent every line
 
 "Vim Preferences
 
-"overrides Auto-Pairs default toggling                                                                            
+"overrides Auto-Pairs default"trl U to Ctr S in normal mode, thus closer to
+"Ctrl D
 let g:AutoPairsShortcutToggle='zp'                                                                                
 "remove highlighting until next search                                                                            
 nnoremap <F4> :nohl<CR>                                                                                           
@@ -62,4 +63,6 @@ nnoremap <C-s> <C-u> "remap Ctrl U to Ctr S in normal mode, thus closer to Ctrl 
 "other files used for vim config but stored in separate directories and files
 "for organizational purposes
 
-source $HOME/.config/nvim/plug-config/coc.vim
+"source $HOME/.config/nvim/plug-config/coc.vim "potentially incorrect pathing;
+"seems to be Linux only. changing to support multiple OS
+source plug-config/coc.vim
