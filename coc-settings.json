@@ -1,3 +1,3 @@
 {
-  "jedi.executable.command": "/home/guyru/.local/bin/jedi-language-server"
+  "jedi.executable.command": "$HOME/.local/bin/jedi-language-server"
 }

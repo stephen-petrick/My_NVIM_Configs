@@ -25,7 +25,7 @@ Plug 'tpope/vim-fugitive' "Git plugin that lets you do more Git commands easily 
 "Plug 'ms-jpq/coq_nvim' "Auto-completion, preview man pages, and lots of other things. Need to research this one more, got confused with COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "Main COC plugin
 "Plug 'dense-analysis/ale' "Linting (checks for errors) w/o having to save first
-Plug 'ms-jpq/chadtree' "File Manager
+"Plug 'ms-jpq/chadtree' "File Manager
 
 call plug#end()
 
@@ -63,6 +63,5 @@ nnoremap <C-s> <C-u> "remap Ctrl U to Ctr S in normal mode, thus closer to Ctrl 
 "other files used for vim config but stored in separate directories and files
 "for organizational purposes
 
-"source $HOME/.config/nvim/plug-config/coc.vim "potentially incorrect pathing;
+source $HOME/.config/nvim/plug-config/coc.vim "potentially incorrect pathing;
 "seems to be Linux only. changing to support multiple OS
-source plug-config/coc.vim
