@@ -46,8 +46,7 @@ set autoindent "auto indent every line
 
 "Vim Preferences
 
-"overrides Auto-Pairs default"trl U to Ctr S in normal mode, thus closer to
-"Ctrl D
+"overrides Auto-Pairs default
 let g:AutoPairsShortcutToggle='zp'                                                                                
 "remove highlighting until next search                                                                            
 nnoremap <F4> :nohl<CR>                                                                                           
@@ -57,7 +56,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k                                                                                             
 nnoremap <C-l> <C-w>l   
 
-nnoremap <C-s> <C-u> "remap Ctrl U to Ctr S in normal mode, thus closer to Ctrl D
+nnoremap <C-s> <C-u>
 
 "Sub Config Files
 "other files used for vim config but stored in separate directories and files
