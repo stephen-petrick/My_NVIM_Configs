@@ -29,6 +29,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} "Main COC plugin
 
 call plug#end()
 
+"coc plugins
+let g:coc_global_extensions = [
+   \'coc-jedi']
+
 "Commands to execute on set up
 ":CHADopen
 
