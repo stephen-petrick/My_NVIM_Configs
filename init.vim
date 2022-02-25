@@ -62,5 +62,6 @@ nnoremap <C-s> <C-u>
 "other files used for vim config but stored in separate directories and files
 "for organizational purposes
 
-source $HOME/.config/nvim/plug-config/coc.vim "potentially incorrect pathing;
+"source $HOME/.config/nvim/plug-config/coc.vim "potentially incorrect pathing;
+execute printf('source %s/plug-config/coc.vim',stdpath('config'))
 "seems to be Linux only. changing to support multiple OS
