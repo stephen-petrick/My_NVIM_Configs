@@ -31,7 +31,11 @@ call plug#end()
 
 "coc plugins
 let g:coc_global_extensions = [
-   \'coc-jedi']
+   \'coc-explorer',
+   \'coc-jedi',
+   \'coc-rome',
+   \'coc-html',
+   \'coc-css']
 
 "Commands to execute on set up
 ":CHADopen
