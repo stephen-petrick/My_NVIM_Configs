@@ -26,6 +26,7 @@ Plug 'tpope/vim-fugitive' "Git plugin that lets you do more Git commands easily 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "Main COC plugin
 "Plug 'dense-analysis/ale' "Linting (checks for errors) w/o having to save first
 "Plug 'ms-jpq/chadtree' "File Manager
+Plug 'vim-airline/vim-airline' "Status line bar, amongst other file statuses
 
 call plug#end()
 
@@ -65,6 +66,10 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l   
 
 nnoremap <C-s> <C-u>
+
+"Airline preferences
+let g:airline#extensions#tabline#enabled = 1 "displays all tabs
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "Sub Config Files
 "other files used for vim config but stored in separate directories and files
