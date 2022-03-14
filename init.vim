@@ -31,12 +31,22 @@ Plug 'vim-airline/vim-airline' "Status line bar, amongst other file statuses
 call plug#end()
 
 "coc plugins
+"   \'coc-rome', "potentially good LSP for HTML, JS, CSS, and others combined
+"   into one, but still in development currently
 let g:coc_global_extensions = [
+   \'coc-marketplace',
    \'coc-explorer',
    \'coc-jedi',
-   \'coc-rome',
+   \'coc-tsserver',
    \'coc-html',
    \'coc-css']
+"marketplace - view and install other plugins
+"explorer - file explorer and manager
+"jedi - Python LSP. Not sure of difference between it and Pyright
+"TSServer - JS and Typescript LSP. Switch to coc-rome when Rome is more
+"developed, as Rome covers more languages (HTML, CSS)
+"html - HTML LSP
+"css - CSS LSP
 
 "Commands to execute on set up
 ":CHADopen
