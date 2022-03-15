@@ -5,6 +5,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+
 " Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
@@ -27,6 +28,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} "Main COC plugin
 "Plug 'dense-analysis/ale' "Linting (checks for errors) w/o having to save first
 "Plug 'ms-jpq/chadtree' "File Manager
 Plug 'vim-airline/vim-airline' "Status line bar, amongst other file statuses
+Plug 'pangloss/vim-javascript' "Javascript syntax highlighter (to have proper highlighting for React)
 
 call plug#end()
 
