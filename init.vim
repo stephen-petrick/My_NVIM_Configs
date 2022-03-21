@@ -52,6 +52,8 @@ let g:coc_global_extensions = [
 
 "Commands to execute on set up
 ":CHADopen
+"autocmd VimEnter * CocCommand explorer "launches coc-explorer on startup. not
+"working as of 3/21/22. get an error for explorer on startup
 
 "Vim preferences
 set number "sets line numbers on the side of the screen
