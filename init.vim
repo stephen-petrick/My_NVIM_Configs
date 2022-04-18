@@ -41,7 +41,8 @@ let g:coc_global_extensions = [
    \'coc-jedi',
    \'coc-tsserver',
    \'coc-html',
-   \'coc-css']
+   \'coc-css',
+   \'coc-java']
 "marketplace - view and install other plugins
 "explorer - file explorer and manager
 "jedi - Python LSP. Not sure of difference between it and Pyright
@@ -49,6 +50,7 @@ let g:coc_global_extensions = [
 "developed, as Rome covers more languages (HTML, CSS)
 "html - HTML LSP
 "css - CSS LSP
+
 
 "Commands to execute on set up
 ":CHADopen
