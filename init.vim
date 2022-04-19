@@ -17,7 +17,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'joshdick/onedark.vim'
 Plug 'sainnhe/sonokai'
 Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/edge'
+Plug 'sainnhe/everforest'
+Plug 'bluz71/vim-nightfly-guicolors'
 
 "Actual Plugins
 Plug 'jiangmiao/auto-pairs' "Automatically adds [,{, etc and lets you navigate them like in an IDE
