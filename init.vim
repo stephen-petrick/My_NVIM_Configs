@@ -57,7 +57,7 @@ let g:coc_global_extensions = [
 
 "Commands to execute on set up
 ":CHADopen
-"autocmd VimEnter * CocCommand explorer "launches coc-explorer on startup. not
+"autocmd VimEnter * <Cmd>CocCommand explorer "launches coc-explorer on startup. not
 "working as of 3/21/22. get an error for explorer on startup
 
 "Vim preferences
@@ -85,6 +85,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l   
 
 nnoremap <C-s> <C-u>
+
+nmap <space>e <Cmd>CocCommand explorer<CR>
 
 "Airline preferences
 let g:airline#extensions#tabline#enabled = 1 "displays all tabs
