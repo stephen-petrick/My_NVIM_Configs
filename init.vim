@@ -45,7 +45,8 @@ let g:coc_global_extensions = [
    \'coc-tsserver',
    \'coc-html',
    \'coc-css',
-   \'coc-java']
+   \'coc-java',
+   \'coc-xml']
 "marketplace - view and install other plugins
 "explorer - file explorer and manager
 "jedi - Python LSP. Not sure of difference between it and Pyright
