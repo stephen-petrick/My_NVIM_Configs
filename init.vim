@@ -87,7 +87,6 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <C-s> <C-u>
 
-nmap <space>e <Cmd>CocCommand explorer<CR>
 
 "Airline preferences
 let g:airline#extensions#tabline#enabled = 1 "displays all tabs
@@ -97,6 +96,6 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 "other files used for vim config but stored in separate directories and files
 "for organizational purposes
 
+"seems to be Linux only. changing to support multiple OS
 "source $HOME/.config/nvim/plug-config/coc.vim "potentially incorrect pathing;
 execute printf('source %s/plug-config/coc.vim',stdpath('config'))
-"seems to be Linux only. changing to support multiple OS
