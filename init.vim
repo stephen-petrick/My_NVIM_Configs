@@ -21,6 +21,8 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/edge'
 Plug 'sainnhe/everforest'
 Plug 'bluz71/vim-nightfly-guicolors'
+Plug 'EdenEast/nightfox.nvim'
+Plug 'ghifarit53/tokyonight-vim'
 
 "Actual Plugins
 Plug 'jiangmiao/auto-pairs' "Automatically adds [,{, etc and lets you navigate them like in an IDE
@@ -34,6 +36,9 @@ Plug 'vim-airline/vim-airline' "Status line bar, amongst other file statuses
 Plug 'pangloss/vim-javascript' "Javascript syntax highlighter (to have proper highlighting for React)
 
 call plug#end()
+
+"Colorscheme Preferences
+let g:everforest_background = 'soft'
 
 "coc plugins
 "   \'coc-rome', "potentially good LSP for HTML, JS, CSS, and others combined
